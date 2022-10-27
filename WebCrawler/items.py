@@ -26,3 +26,9 @@ class BoursoramaItem(scrapy.Item):
     low = scrapy.Field()
     open_ = scrapy.Field()
     time = scrapy.Field()
+
+class MyanimelistItem(scrapy.Item):
+    nom = scrapy.Field()
+    img = scrapy.Field()
+    desc = scrapy.Field()
+
